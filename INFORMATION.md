@@ -87,4 +87,4 @@ KeyboardPage/
 
 ## 📄 License
 
-This project is private and not open for public distribution.
+This project is for fun but not for distribution.
