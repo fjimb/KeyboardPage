@@ -16,8 +16,8 @@
 ### Backend
 | Technology | Description |
 |------------|-------------|
-| 🍃 Spring Boot or 🐍 FastAPI | REST API framework |
-| 🐬 MySQL or Postgress 🐘 | Relational database |
+| Spring Boot🍃| REST API framework |
+| Postgress 🐘 | Relational database |
 
 ---
 
