@@ -63,8 +63,23 @@ cd backend
 KeyboardPage/
 ├── src/
 │   ├── assets/
-│   ├── components/
-│   ├── pages/
+│   │   ├── images/          # Project images (hero banners, product photos, etc.)
+│   │   └── icons/           # SVG and icon assets
+│   ├── components/          # Reusable UI components (Navbar, Footer, Button, etc.)
+│   ├── context/             # React Context API for global state (cart, auth)
+│   │   └── CartContext.tsx
+│   ├── hooks/               # Custom React hooks
+│   │   ├── useCart.ts       # Hook for cart state and actions
+│   │   └── useProducts.ts   # Hook for fetching/managing products
+│   ├── pages/               # Route-level page components
+│   │   ├── Cart/
+│   │   ├── Home/
+│   │   ├── ProductDetail/
+│   │   └── Products/
+│   ├── services/            # API layer — HTTP calls to the Spring Boot backend
+│   │   └── api.ts
+│   ├── types/               # Shared TypeScript type definitions and interfaces
+│   │   └── index.ts
 │   ├── App.tsx
 │   └── main.tsx
 ├── public/
